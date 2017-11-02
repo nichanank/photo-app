@@ -3,4 +3,8 @@ class User < ApplicationRecord
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable, :confirmable,
          :recoverable, :rememberable, :trackable, :validatable
+  has_one :payment
+  
+  # User signup is handled through registrations_new form. User accepts nested payments via form submissions
+  accepts_nested_attributes_for :payment
 end
