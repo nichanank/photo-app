@@ -1,24 +1,12 @@
-# README
+Photo app built in Rob Percival's RoR course.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The app features an authentication system, verification emailing, credit card payment capacities in addition to image uplaoding.
 
-Things you may want to cover:
+Tools used: Devise, Stripe, Sendgrid, Bootstrap
 
-* Ruby version
+The course also includes a section on image upload and storage in production with AWS, it was not implemented here.
 
-* System dependencies
+To do:
+- Improve styling
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This app is hosted on Heroku at nich-photo-app.herokuapp.com
